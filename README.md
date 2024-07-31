@@ -6,7 +6,7 @@ degit 명령을 사용해서 react 환경구성을 위한 Custom Vite Template�
 degit castlehuni/vite-react-custom-template <프로젝트_이름>
 ```
 
-<br><br>
+<hr>
 
 ## 템플릿 구조
 
@@ -47,6 +47,8 @@ degit castlehuni/vite-react-custom-template <프로젝트_이름>
 8. 설치한 각각의 플러그인들을 eslint.config.js를 통해 eslint와 연결
 9. 절대 경로를 위한 vite.config.js 수정 및 jsconfig.json 파일 작성
 10. 절대 경로로 경로 수정 및 리드미 파일 추가
+
+<br>
 
 ## 이번 과제를 진행하면서 느낀점
 
