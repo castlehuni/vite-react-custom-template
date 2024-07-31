@@ -1,4 +1,4 @@
-import ComponentTemplate from "../components/componentTemplate";
+import ComponentTemplate from "../components/ComponentTemplate";
 
 const PageTemplate = () => {
   return (
