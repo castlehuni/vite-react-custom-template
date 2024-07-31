@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import PageTemplate from "./pages/PageTemplate";
+import PageTemplate from "@/pages/pageTemplate";
 
 const container = document.getElementById("react-app");
 

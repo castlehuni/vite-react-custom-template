@@ -1,9 +1,8 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
-import pluginReact, { rules } from "eslint-plugin-react";
+import pluginReact from "eslint-plugin-react";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginReactRefresh from "eslint-plugin-react-refresh";
-import plugin from "eslint-plugin-react";
 
 export default [
   {
@@ -41,6 +40,7 @@ export default [
       ...pluginReactHooks.configs.recommended.rules,
       "react-refresh/only-export-components": "warn",
       "react/react-in-jsx-scope": "off",
+      "react/prop-types": "warn",
     },
   },
 ];
