@@ -1,4 +1,3 @@
-import React from "react";
 import ComponentTemplate from "../components/componentTemplate";
 
 const PageTemplate = () => {
